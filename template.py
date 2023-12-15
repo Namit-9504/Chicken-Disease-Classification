@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO,format='[%(asctim)s]:  %(message)s:')
+logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:  %(message)s:')
 
 project_name = "cnnClassifier"
 list_of_files =[
@@ -20,7 +20,8 @@ list_of_files =[
     "params.ymal",
     "requirement.txt",
     "setup.py",
-    "research/trails.ipynb"
+    "research/trails.ipynb",
+    "templates/index.html"
 
 
 ]
