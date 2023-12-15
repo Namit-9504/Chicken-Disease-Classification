@@ -17,7 +17,7 @@ list_of_files =[
     f"src/{project_name}/contansts/__init__.py",
     "config/config.yaml",
     "dvc.ymal",
-    "params.ymal",
+    "params.yaml",
     "requirement.txt",
     "setup.py",
     "research/trails.ipynb",
